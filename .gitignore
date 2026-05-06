@@ -1,0 +1,47 @@
+# =============================
+# Entorno virtual de Python
+# =============================
+venv_ml/
+venv_p2/
+venv/
+.env/
+# =============================
+# Archivos de Python compilados
+# =============================
+__pycache__/
+*.py[cod]
+*$py.class
+# =============================
+# Archivos de Jupyter Notebook
+# =============================
+.ipynb_checkpoints/
+# =============================
+# Archivos de configuración de IDEs
+# =============================
+.vscode/
+.idea/
+# =============================
+# Archivos temporales y de sistema
+# =============================
+*.log
+*.tmp
+*.swp
+.DS_Store
+# =============================
+# Archivos de exportación de paquetes
+# =============================
+*.egg-info/
+dist/
+build/
+# =============================
+# Modelos entrenados y artefactos pesados
+# =============================
+model/
+*.pkl
+*.pt
+*.bin
+# =============================
+# Datos (no subir CSVs del dataset)
+# =============================
+Data/
+submissions/
