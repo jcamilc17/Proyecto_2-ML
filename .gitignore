@@ -37,9 +37,11 @@ build/
 # Modelos entrenados y artefactos pesados
 # =============================
 model/
+model_finetuned/
 *.pkl
 *.pt
 *.bin
+*.npy
 # =============================
 # Datos (no subir CSVs del dataset)
 # =============================
